@@ -38,3 +38,12 @@ print(menSaid)
 
 rStr=r"c:\user\pwd"
 print(rStr)
+
+
+"""
+assigment
+x="python"
+print(x[4:])
+# print(x[6])
+
+"""
