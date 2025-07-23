@@ -36,6 +36,13 @@ print(add)
 nest=[[1,2],[4,5],[9,10]]
 print(*nest[0],*nest[1],*nest[2])
 """
+newList=[1,2,3,4,5]
+newList.insert(2,"hello")
+newList.remove("hello")
+newList.reverse()
+newList.extend("hey")
+print(newList)
+
 
 
 # tuple is unmutuable
@@ -56,3 +63,4 @@ numbers=(1,2,4,2,8,9,2,6,3)
 print(numbers.count(2))
 print(numbers.index(2))
 """
+
