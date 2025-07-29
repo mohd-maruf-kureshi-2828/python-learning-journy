@@ -44,6 +44,87 @@ newList.extend("hey")
 print(newList)
 
 
+# 08class for revision
+
+# li1=[1,2,3,4,5,[70]]
+# li2=[6,7,8,9]
+# li1.extend(li2)
+# l3=li1+li2
+# print(l3)
+# li1.extend(li1)
+# li1.extend()
+# print(li1[5])
+
+# li1=[1,2,3,4,5]
+# li2=[6,7,8,9]
+# li1.extend(l2) only for sequential data type
+# print(li1)
+
+# l1=[10,20]
+# any="hello"
+# l1.append(any)
+# print(l1)
+li1=[10,20,30,40,50]
+# li1.insert(2,400)
+# li1.reverse()
+# li1.sort()
+# li1.remove(10)
+# li1.pop(2)
+# print(li1)
+
+# emptylist=[]
+# li=[1,2,3,4,5]
+# emptylist.append(li)
+# print(emptylist)
+
+# method2emp=[]
+# userint=input("Enter Your Name :")
+# method2emp.append(userint)
+# print(method2emp)
+
+
+"""
+emptyList=[]
+for item in range(5):
+    name=input("enter your 5 names:")
+    emptyList.append(name)
+
+print("final 5 name",emptyList)
+"""
+
+
+"""
+emptyList=[]
+for item in range(10):
+    name=int(input("Enter 10 numbers:"))
+    emptyList.append(name)
+
+print("final 10 numbers",emptyList)
+"""
+
+
+# list1=[1,2,3,4,5]
+# print(list1)
+# userAsk=int(input("Which position DO You Want to delete:"))
+# list1.remove(userAsk)
+# print(list1)
+
+
+# list1=[10,20,30,40,50]
+# userAsk=int(input("enter your numbers to append:"))
+# list1.append(userAsk)
+# print(list1)
+
+
+list1=[10,20,30,40,50]
+pos=int(input("enter your pos:"))
+if pos in range(len(list1)):
+    ele=int(input("enter your element"))
+    list1.insert(pos,ele)
+    print("final list",list1)
+else:
+    print("invalid input")
+
 
 # tuple is unmutuable
 """
