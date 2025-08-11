@@ -1,9 +1,21 @@
-numbers=[10,40,-1,20,30,-20,-40]
-positive_number_count=0
+"""
+emty_list=[]
+for i in range(1,11):
+    user_input=int(input("Enter A Number :"))
+    emty_list.append(user_input)
+    if user_input>0:
+        # positive_number+=1
+        print("positive numbers is",user_input)
+    
 
-for i in numbers:
-    if i>0:
-        positive_number_count+=1
+"""
 
-print("Total positive number is :",positive_number_count)
-     
+empt_list=[]
+positive_number=0
+for i in range(1,5):
+    user_input=int(input("Enter A Number : "))
+    empt_list.append(user_input)
+    if user_input>0:
+        positive_number+=1
+
+print("Total Positive Numbers Is",positive_number)
